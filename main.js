@@ -4,7 +4,7 @@ const z =[];
 const allArray=[]
 for (let start = 0; start < product.length; start++) {
     const z =[];
-    if(price[start]>=2000 && price[start]<= 50000 ){
+    if(price[start]>=2000 && price[start]<= 49000 ){
     z.push(product[start],price[start])
     allArray.push(z)
     console.log(z)
